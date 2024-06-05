@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for better readability */
+  overflow: hidden;
+}
+
+.background-image {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 20%; /* Adjust the size of the image */
+  z-index: -1; /* Ensure the image is behind other content */
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Other styles remain unchanged */
+
+/* Other styles remain unchanged */
+
+.hide {
+  display: none;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.answer-container {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  justify-content: center;
+}
+
+.option-number {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+button {
+  background: #45515e;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 200px;  /* Adjust the width to make the buttons smaller */
+  text-align: center;
+}
+
+button:hover {
+  background: #000101;
+}
+
+.correct {
+  background-color: green;
+  color: white;
+}
+
+.wrong {
+  background-color: red;
+  color: white;
+}
+
+#next-btn {
+  margin-top: 20px;  /* Add margin to the top to create space */
+}
