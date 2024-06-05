@@ -32,7 +32,7 @@ To start playing **Interactive Quiz Game**:
 
 ## Contributing
 
-We welcome contributions from the community to enhance **Interactive Quiz Game** further. Whether you have ideas for new features, improvements to existing functionality, or bug fixes, we encourage you to get involved. Please refer to the [Contributing Guidelines](CONTRIBUTING.md) for more information.
+We welcome contributions from the community to enhance **Interactive Quiz Game** further. Whether you have ideas for new features, improvements to existing functionality, or bug fixes, we encourage you to get involved. 
 
 ## License
 
